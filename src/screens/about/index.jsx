@@ -1,0 +1,65 @@
+import React from "react";
+
+import Header from "components/Header";
+
+import "./styles.css";
+import { Bruno, BrunoDoron, BrunoOffice, BrunoVice } from "assets";
+import { Typography } from "theme";
+
+const About = () => (
+  <div className="about-main-container">
+    <Header selected="" />
+    <h1 className="about-title">ABOUT ME</h1>
+    <div className="about-container">
+      <div className="about-images-container">
+        <img src={BrunoVice} alt="profile" />
+        <img src={BrunoDoron} alt="profile" />
+        <img src={BrunoOffice} alt="profile" />
+        <img src={Bruno} alt="profile" />
+      </div>
+      <div className="about-text-container">
+        <h1
+          className="about-paragraph-title"
+          style={Typography.styles.modalParagraph}
+        >
+          Bruno Pintos.
+        </h1>
+        <p className="about-paragraph" style={Typography.styles.modalParagraph}>
+          Hey! I live in{" "}
+          <a
+            href="https://goo.gl/maps/atxUPxPFbGdjpzmK6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Montevideo, Uruguay
+          </a>
+          , and work at{" "}
+          <a
+            href="https://effectussoftware.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Effectus Software
+          </a>{" "}
+          — a mobile & web applications development agency.
+        </p>
+        <p className="about-paragraph" style={Typography.styles.modalParagraph}>
+          I'm a Semi Senior Frontend Developer specialized in React and React
+          Native projects. I like to participate in challenging projects and
+          create solutions that change the world.
+        </p>
+        <p className="about-paragraph" style={Typography.styles.modalParagraph}>
+          I am used to working with small and large teams, and I am passionate
+          about sharing my knowledge with others. I was in charge of various
+          development teams and trained several junior developers.
+        </p>
+        <p className="about-paragraph" style={Typography.styles.modalParagraph}>
+          In my free time I love to play football ⚽️ with my friends and I'm
+          also a big fan of formula 1 🏎 so I don't like to miss any race.
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
+export default About;
