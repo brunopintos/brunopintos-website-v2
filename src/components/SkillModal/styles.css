@@ -6,7 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000000cc;
+  background-color: #00000088;
+  z-index: 1;
 }
 
 .modal-container {
