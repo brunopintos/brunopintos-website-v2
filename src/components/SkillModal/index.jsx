@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo, useRef } from "react";
 
 import { Close } from "assets";
 import { findByKey } from "utils/skills";
@@ -9,6 +9,11 @@ import SkillsList from "components/SkillsList";
 
 const SkillModal = ({ openSkill, setOpenSkill }) => {
   const skill = useMemo(() => findByKey(openSkill), [openSkill]);
+  const scrollable = useRef();
+
+  useEffect(() => {
+    scrollable.current?.scrollTo(0, 0);
+  }, [openSkill]);
 
   return (
     !!skill && (
@@ -34,7 +39,7 @@ const SkillModal = ({ openSkill, setOpenSkill }) => {
               ))}
             </div>
           </div>
-          <div className="modal-right-container">
+          <div className="modal-right-container" ref={scrollable}>
             <h1 style={Typography.styles.modalTitle}>{skill.name}</h1>
             <p style={Typography.styles.modalParagraph}>{skill.description1}</p>
             <p style={Typography.styles.modalParagraph}>{skill.description2}</p>

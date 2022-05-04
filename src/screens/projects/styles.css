@@ -1,15 +1,15 @@
-.projects-container {
+.projects-main-container {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .projects-title {
-  position: absolute;
+  position: fixed;
   font-family: "BenchNine", sans-serif;
   top: 50%;
   left: 50%;
@@ -20,8 +20,44 @@
   user-select: none;
 }
 
+.projects-container {
+  z-index: 1;
+}
+
+@keyframes move {
+  0%,
+  100% {
+    bottom: 20px;
+  }
+  50% {
+    bottom: 35px;
+  }
+}
+
+.projects-down-arrow-container {
+  animation: move 1s linear infinite;
+  position: absolute;
+  left: "50%";
+  bottom: 20px;
+}
+
+.projects-down-arrow {
+  width: 30px;
+  position: relative;
+  left: "-50%";
+}
+
 @media (max-width: 850px) {
-  .skills-title {
+  .projects-title {
     font-size: 20vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-main-container {
+    padding-top: 60px;
+  }
+  .projects-down-arrow {
+    display: none;
   }
 }

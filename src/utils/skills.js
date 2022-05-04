@@ -32,10 +32,10 @@ const skills = [
       {
         image: ReactLogo,
         alt: "React",
-        key: 1,
+        key: "1-1",
       },
     ],
-    key: 1,
+    key: "1",
   },
   {
     name: "Version Control",
@@ -45,25 +45,25 @@ const skills = [
       {
         image: Git,
         alt: "Git",
-        key: 1,
+        key: "2-1",
       },
       {
         image: Github,
         alt: "Github",
-        key: 2,
+        key: "2-2",
       },
       {
         image: Gitlab,
         alt: "Gitlab",
-        key: 3,
+        key: "2-3",
       },
       {
         image: Bitbucket,
         alt: "Bitbucket",
-        key: 4,
+        key: "2-4",
       },
     ],
-    key: 2,
+    key: "2",
   },
   {
     name: "Management Tools",
@@ -73,15 +73,15 @@ const skills = [
       {
         image: Jira,
         alt: "Jira",
-        key: 1,
+        key: "3-1",
       },
       {
         image: Trello,
         alt: "Trello",
-        key: 2,
+        key: "3-2",
       },
     ],
-    key: 3,
+    key: "3",
   },
   {
     name: "Design Tools",
@@ -91,20 +91,20 @@ const skills = [
       {
         image: Figma,
         alt: "Figma",
-        key: 1,
+        key: "4-1",
       },
       {
         image: Sketch,
         alt: "Sketch",
-        key: 2,
+        key: "4-2",
       },
       {
         image: Zeplin,
         alt: "Zeplin",
-        key: 3,
+        key: "4-3",
       },
     ],
-    key: 4,
+    key: "4",
   },
   {
     name: "Languages",
@@ -114,15 +114,15 @@ const skills = [
       {
         image: Javascript,
         alt: "Javascript",
-        key: 1,
+        key: "5-1",
       },
       {
         image: Typescript,
         alt: "Typescript",
-        key: 2,
+        key: "5-2",
       },
     ],
-    key: 5,
+    key: "5",
   },
   {
     name: "Backend",
@@ -132,20 +132,20 @@ const skills = [
       {
         image: Node,
         alt: "Node",
-        key: 1,
+        key: "6-1",
       },
       {
         image: Java,
         alt: "Java",
-        key: 2,
+        key: "6-2",
       },
       {
         image: Rails,
         alt: "Rails",
-        key: 3,
+        key: "6-3",
       },
     ],
-    key: 6,
+    key: "6",
   },
   {
     name: "Other frameworks",
@@ -155,15 +155,15 @@ const skills = [
       {
         image: ElectronImage,
         alt: "Electron",
-        key: 1,
+        key: "7-1",
       },
       {
         image: Phaser,
         alt: "Phaser",
-        key: 2,
+        key: "7-2",
       },
     ],
-    key: 7,
+    key: "7",
   },
 ];
 

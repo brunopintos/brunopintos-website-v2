@@ -62,6 +62,7 @@ const Particles = () => (
       },
       detectRetina: true,
     }}
+    style={{ zIndex: -1 }}
   />
 );
 

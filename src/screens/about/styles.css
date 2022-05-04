@@ -43,32 +43,42 @@
   border-radius: 50%;
   filter: grayscale(100%);
   aspect-ratio: 1;
+  object-fit: cover;
   transition: transform 40ms linear;
   user-select: none;
+  background-size: cover;
+  background-position: 40% 50%;
 }
 
 .about-images-container img:nth-child(1) {
   bottom: 0;
   left: 5%;
   width: 33%;
+  background-image: url("assets/bruno-vice-low.jpg"),
+    url("assets/bruno-vice-low-low.jpg");
 }
 
 .about-images-container img:nth-child(2) {
   top: 5%;
   left: 0;
   width: 35%;
+  background-image: url("assets/bruno-doron-low.jpg"),
+    url("assets/bruno-doron-low-low.jpg");
 }
 
 .about-images-container img:nth-child(3) {
   top: 0;
   right: 0;
   width: 32%;
+  background-image: url("assets/bruno-office-low.jpg"),
+    url("assets/bruno-office-low-low.jpg");
 }
 
 .about-images-container img:nth-child(4) {
   top: 26%;
   left: 30%;
   width: 50%;
+  background-image: url("assets/bruno-low.jpg"), url("assets/bruno-low-low.jpg");
 }
 
 .about-images-container img:hover {
@@ -150,5 +160,32 @@
   }
   .about-paragraph-title {
     font-size: 32px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-images-container img:nth-child(1) {
+    top: 20%;
+    left: 0;
+    height: 60%;
+    width: unset;
+  }
+  .about-images-container img:nth-child(2) {
+    top: 10%;
+    left: 16%;
+    height: 80%;
+    width: unset;
+  }
+  .about-images-container img:nth-child(3) {
+    top: 15%;
+    right: 0;
+    height: 70%;
+    width: unset;
+  }
+  .about-images-container img:nth-child(4) {
+    top: 5%;
+    left: 33%;
+    height: 90%;
+    width: unset;
   }
 }

@@ -14,7 +14,8 @@ import NotFoundRoute from "screens/not-found";
 const createElement = (element, loading) => (
   <div className="main-container">
     <Particles />
-    {loading ? <Loading /> : element}
+    {element}
+    {loading && <Loading />}
   </div>
 );
 
