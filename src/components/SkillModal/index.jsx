@@ -45,7 +45,7 @@ const SkillModal = ({ openSkill, setOpenSkill }) => {
             <p style={Typography.styles.modalParagraph}>{skill.description2}</p>
           </div>
         </div>
-        <SkillsList setOpenSkill={setOpenSkill} />
+        {window.innerWidth > 450 && <SkillsList setOpenSkill={setOpenSkill} />}
       </div>
     )
   );
