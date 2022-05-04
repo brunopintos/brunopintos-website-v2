@@ -15,7 +15,7 @@ const typography = {
       color: Color.white,
       marginBottom: 20,
       fontFamily: "'BenchNine', sans-serif",
-      fontSize: 56,
+      fontSize: window.innerWidth > 450 ? 56 : 32,
     },
     modalParagraph: {
       color: Color.white,
