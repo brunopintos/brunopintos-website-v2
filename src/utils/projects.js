@@ -1,4 +1,5 @@
 import {
+  ProjectAaos,
   ProjectAyp,
   ProjectCH,
   ProjectFigo,
@@ -8,10 +9,28 @@ import {
 
 const projects = [
   {
-    key: 1,
+    key: 6,
+    title: "AAOS Membership",
+    type: "📱",
+    link: "https://www.aaos.org/",
+    image: {
+      src: ProjectAaos,
+      alt: "Project AAOS Membership",
+    },
+    description: {
+      text1:
+        "The American Academy of Orthopaedic Surgeons is the world's largest medical association of musculoskeletal specialists. It provides education and practice management services for orthopedic surgeons and allied health professionals. I took part in the development of its app, which included Podcasts, Member Directory, Messages, Online Learning, and more.",
+      text2:
+        "To do this, we used a React Native front-end and integrated it with an already built back-end. I was front-end developer.",
+    },
+    color: "#CC0033",
+    year: "2022 in development...",
+  },
+  {
+    key: 5,
     title: "Cooper's Hawk",
     type: "📱",
-    link: "https://chwinery.com/",
+    link: "https://chwinery.com/coopers-hawk-mobile-app",
     image: {
       src: ProjectCH,
       alt: "Project Cooper's Hawk",
@@ -26,10 +45,10 @@ const projects = [
     year: "2021-2022",
   },
   {
-    key: 2,
+    key: 4,
     title: "Figo Pet Insurance",
     type: "📱",
-    link: "https://figopetinsurance.com/",
+    link: "https://figopetinsurance.com/pet-cloud",
     image: {
       src: ProjectFigo,
       alt: "Project Figo Pet Insurance",
@@ -62,7 +81,7 @@ const projects = [
     year: "2020-2021",
   },
   {
-    key: 4,
+    key: 2,
     title: "Lithium Knowledge Base",
     type: "📱",
     link: "https://lithiumsoft.com/project/knowledge-base-react-native-app/",
@@ -80,8 +99,8 @@ const projects = [
     year: "2020",
   },
   {
-    key: 5,
-    title: "AyP soft",
+    key: 1,
+    title: "AyP Soft",
     type: "🖥",
     link: "http://ayp.com.uy/",
     image: {

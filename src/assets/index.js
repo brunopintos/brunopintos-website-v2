@@ -16,6 +16,7 @@ export { default as Javascript } from "./javascript.png";
 export { default as Jira } from "./jira.png";
 export { default as Node } from "./node.png";
 export { default as Phaser } from "./phaser.png";
+export { default as ProjectAaos } from "./project-aaos.png";
 export { default as ProjectAyp } from "./project-ayp.png";
 export { default as ProjectCH } from "./project-ch.png";
 export { default as ProjectFigo } from "./project-figo.png";
