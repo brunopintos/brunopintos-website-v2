@@ -18,6 +18,7 @@ export { default as Node } from "./node.png";
 export { default as Phaser } from "./phaser.png";
 export { default as ProjectAaos } from "./project-aaos.png";
 export { default as ProjectAyp } from "./project-ayp.png";
+export { default as ProjectBxl } from "./project-bxl.png";
 export { default as ProjectCH } from "./project-ch.png";
 export { default as ProjectFigo } from "./project-figo.png";
 export { default as ProjectJShip } from "./project-jship.png";

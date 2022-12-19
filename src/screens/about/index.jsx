@@ -54,8 +54,7 @@ const About = () => (
           development teams and trained several junior developers.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          In my free time I love to play football ⚽️ with my friends and I'm
-          also a big fan of formula 1 🏎 so I don't like to miss any race.
+          In my free time I like to play sports. ⚽️🏀🎾
         </p>
       </div>
     </div>

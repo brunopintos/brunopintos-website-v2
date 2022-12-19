@@ -1,6 +1,7 @@
 import {
   ProjectAaos,
   ProjectAyp,
+  ProjectBxl,
   ProjectCH,
   ProjectFigo,
   ProjectJShip,
@@ -8,6 +9,24 @@ import {
 } from "assets";
 
 const projects = [
+  {
+    key: 6,
+    title: "BellXcel",
+    type: "📱",
+    link: "https://www.bellxcel.org/",
+    image: {
+      src: ProjectBxl,
+      alt: "Project BellXcel",
+    },
+    description: {
+      text1:
+        "BellXcel is a national nonprofit which builds the capacity of schools and community-based organizations (CBOs) to provide evidence-based, out-of-school-time (OST) programs for PreK-8 children. I took part in the development of its app, which included Posts, Messages, Pick Ups, and more.",
+      text2:
+        "To do this, we used a React Native front-end and integrated it with an already built back-end. I was front-end developer.",
+    },
+    color: "#8B2180",
+    year: "2022-2023",
+  },
   {
     key: 6,
     title: "AAOS Membership",
@@ -24,7 +43,7 @@ const projects = [
         "To do this, we used a React Native front-end and integrated it with an already built back-end. I was front-end developer.",
     },
     color: "#CC0033",
-    year: "2022 in development...",
+    year: "2022",
   },
   {
     key: 5,
