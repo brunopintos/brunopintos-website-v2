@@ -44,9 +44,9 @@ const About = () => (
           — a mobile & web applications development agency.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          I'm a Semi Senior Frontend Developer specialized in React and React
-          Native projects. I like to participate in challenging projects and
-          create solutions that change the world.
+          I'm a Senior Frontend Developer specialized in React and React Native
+          projects. I like to participate in challenging projects and create
+          solutions that change the world.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
           I am used to working with small and large teams, and I am passionate
