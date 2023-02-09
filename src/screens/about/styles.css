@@ -38,6 +38,12 @@
   z-index: 2;
 }
 
+.about-social {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .about-images-container img {
   position: absolute;
   border-radius: 50%;
@@ -47,6 +53,13 @@
   user-select: none;
   background-size: cover;
   background-position: 40% 50%;
+}
+
+.about-social img {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  margin-right: 12px;
 }
 
 .about-images-container img:nth-child(1) {

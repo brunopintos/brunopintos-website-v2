@@ -3,7 +3,15 @@ import React from "react";
 import Header from "components/Header";
 
 import "./styles.css";
-import { Bruno, BrunoDoron, BrunoOffice, BrunoVice } from "assets";
+import {
+  Bruno,
+  BrunoDoron,
+  BrunoOffice,
+  BrunoVice,
+  SocialEmail,
+  SocialGithub,
+  SocialLinkedIn,
+} from "assets";
 import { Typography } from "theme";
 
 const About = () => (
@@ -56,6 +64,29 @@ const About = () => (
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
           In my free time I like to play sports. ⚽️🏀🎾
         </p>
+        <div className="about-social">
+          <a
+            href="mailto:brunopintos98@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={SocialEmail} alt="email" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/brunopintos98/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={SocialLinkedIn} alt="linkedin" />
+          </a>
+          <a
+            href="https://github.com/brunopintos"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={SocialGithub} alt="github" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
