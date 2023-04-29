@@ -33,7 +33,7 @@ const About = () => (
           Bruno Pintos.
         </h1>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          Hey! I live in{" "}
+          Hey! I am a Senior Frontend Developer based in{" "}
           <a
             href="https://goo.gl/maps/atxUPxPFbGdjpzmK6"
             target="_blank"
@@ -41,28 +41,24 @@ const About = () => (
           >
             Montevideo, Uruguay
           </a>
-          , and work at{" "}
-          <a
-            href="https://effectussoftware.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Effectus Software
-          </a>{" "}
-          — a mobile & web applications development agency.
+          .
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          I'm a Senior Frontend Developer specialized in React and React Native
-          projects. I like to participate in challenging projects and create
-          solutions that change the world.
+          I specialize in React Native and React.js development and have worked
+          on a variety of projects, ranging from small-scale applications to
+          large-scale enterprise solutions.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          I am used to working with small and large teams, and I am passionate
-          about sharing my knowledge with others. I was in charge of various
-          development teams and trained several junior developers.
+          My experience includes managing development teams, training junior
+          developers, and collaborating with cross-functional teams to deliver
+          high-quality software solutions. In addition to my work experience, I
+          hold a Bachelor's degree in Computer Science with a GPA of 89%.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          In my free time I like to play sports. ⚽️🏀🎾
+          In my free time, I enjoy playing sports, including soccer, basketball,
+          and tennis. I am always looking for new challenges and opportunities
+          to learn and grow, and I am passionate about using technology to make
+          a positive impact on the world.
         </p>
         <div className="about-social">
           <a

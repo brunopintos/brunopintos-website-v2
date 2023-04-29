@@ -2,15 +2,53 @@ import {
   ProjectAaos,
   ProjectAyp,
   ProjectBxl,
+  ProjectCarChat,
   ProjectCH,
   ProjectFigo,
   ProjectJShip,
   ProjectLithium,
+  ProjectTHS,
 } from "assets";
 
 const projects = [
   {
-    key: 6,
+    key: 9,
+    title: "CarChat",
+    type: "📱",
+    link: "",
+    image: {
+      src: ProjectCarChat,
+      alt: "Project CarChat",
+    },
+    description: {
+      text1:
+        "Carchat is a mobile app that connects drivers in a network to share real-time information about traffic conditions, road hazards, and other driving-related issues. The app also sends reminders about important car-related tasks, such as paying bills and scheduling maintenance appointments, to help users keep their cars in good condition. Carchat aims to make driving safer and more connected by providing a community-driven platform for sharing information and reminders.",
+      text2:
+        "This was an end-to-end project, where we used a React Native front-end and integrated it with an RoR back-end. I was front-end lead developer.",
+    },
+    color: "#3eeeb2",
+    year: "2023",
+  },
+  {
+    key: 8,
+    title: "The Humane Space",
+    type: "📱",
+    link: "https://www.thehumane.space/",
+    image: {
+      src: ProjectTHS,
+      alt: "Project The Humane Space",
+    },
+    description: {
+      text1:
+        "The Humane Space is a mobile app that combines education and wellness to inspire users with a daily dose of wonderment and interdisciplinary understanding. The app offers curated experiences in multi-media to explore complex questions and encourages deep thinking and reflection. Users can connect with a community of learners, sharing insights and perspectives. The Humane Space provides a unique and fulfilling approach to personal growth.",
+      text2:
+        "This was an end-to-end project, where we used a React Native front-end and integrated it with an RoR back-end. I was front-end lead developer.",
+    },
+    color: "#000000",
+    year: "2022-2023",
+  },
+  {
+    key: 7,
     title: "BellXcel",
     type: "📱",
     link: "https://www.bellxcel.org/",
@@ -25,7 +63,7 @@ const projects = [
         "To do this, we used a React Native front-end and integrated it with an already built back-end. I was front-end developer.",
     },
     color: "#8B2180",
-    year: "2022-2023",
+    year: "2022",
   },
   {
     key: 6,
