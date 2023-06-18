@@ -96,6 +96,7 @@
   left: 30%;
   width: 50%;
   background-image: url("assets/bruno-low.jpg"), url("assets/bruno-low-low.jpg");
+  filter: grayscale(100%);
 }
 
 .about-images-container img:hover {
