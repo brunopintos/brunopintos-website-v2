@@ -8,6 +8,16 @@
   overflow: hidden;
 }
 
+.not-found-content-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
 .not-found-title {
   position: absolute;
   font-family: "BenchNine", sans-serif;
@@ -18,6 +28,11 @@
   font-size: 250px;
   text-align: center;
   user-select: none;
+}
+
+img {
+  width: 90vw;
+  max-height: 50vh;
 }
 
 @media (max-width: 850px) {

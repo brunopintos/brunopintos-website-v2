@@ -8,7 +8,7 @@ import Loading from "components/Loading";
 import Particles from "components/Particles";
 import About from "screens/about";
 import Projects from "screens/projects";
-import Skills from "screens/skills";
+// import Skills from "screens/skills";
 import NotFoundRoute from "screens/not-found";
 
 const createElement = (element, loading) => (
@@ -40,11 +40,11 @@ function App() {
               path="/projects"
               element={createElement(<Projects />, loading)}
             />
-            <Route
+            {/* <Route
               exact
               path="/skills"
               element={createElement(<Skills />, loading)}
-            />
+            /> */}
           </Route>
           <Route path="*" element={createElement(<NotFoundRoute />, loading)} />
         </Routes>
