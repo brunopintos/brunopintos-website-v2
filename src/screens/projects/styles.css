@@ -56,6 +56,7 @@
 @media (max-width: 600px) {
   .projects-main-container {
     padding-top: 60px;
+    padding-bottom: 100px;
   }
   .projects-down-arrow {
     display: none;
