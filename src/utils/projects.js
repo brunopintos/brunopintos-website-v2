@@ -24,7 +24,7 @@ const projects = [
       text1:
         "Carchat is a mobile app that connects drivers in a network to share real-time information about traffic conditions, road hazards, and other driving-related issues. The app also sends reminders about important car-related tasks, such as paying bills and scheduling maintenance appointments, to help users keep their cars in good condition. Carchat aims to make driving safer and more connected by providing a community-driven platform for sharing information and reminders.",
       text2:
-        "This was an end-to-end project, where we used a React Native front-end and integrated it with an RoR back-end. I was front-end lead developer.",
+        "This is an end-to-end project, where we use a React Native front-end and integrate it with an RoR back-end. I'm front-end lead developer.",
     },
     color: "#3eeeb2",
     year: "Under development...",
@@ -33,7 +33,7 @@ const projects = [
     key: 8,
     title: "The Humane Space",
     type: "📱",
-    link: "https://www.thehumane.space/",
+    link: "https://apps.apple.com/us/app/the-humane-space/id6443709613",
     image: {
       src: ProjectTHS,
       alt: "Project The Humane Space",
@@ -49,16 +49,16 @@ const projects = [
   },
   {
     key: 7,
-    title: "BellXcel",
+    title: "Arly Teams",
     type: "📱",
-    link: "https://www.bellxcel.org/",
+    link: "https://apps.apple.com/us/app/bx-teams/id1604989916",
     image: {
       src: ProjectBxl,
-      alt: "Project BellXcel",
+      alt: "Project Arly Teams",
     },
     description: {
       text1:
-        "BellXcel is a national nonprofit which builds the capacity of schools and community-based organizations (CBOs) to provide evidence-based, out-of-school-time (OST) programs for PreK-8 children. I took part in the development of its app, which included Posts, Messages, Pick Ups, and more.",
+        "BellXcel is a national nonprofit which builds the capacity of schools and community-based organizations (CBOs) to provide evidence-based, out-of-school-time (OST) programs for PreK-8 children. I took part in the development of its Arly Teams app, which included Posts, Messages, Pick Ups, and more.",
       text2:
         "To do this, we used a React Native front-end and integrated it with an already built back-end. I was front-end developer.",
     },
@@ -69,7 +69,7 @@ const projects = [
     key: 6,
     title: "AAOS Membership",
     type: "📱",
-    link: "https://www.aaos.org/",
+    link: "https://apps.apple.com/ca/app/aaos-membership-app/id1635988366",
     image: {
       src: ProjectAaos,
       alt: "Project AAOS Membership",
@@ -87,7 +87,7 @@ const projects = [
     key: 5,
     title: "Cooper's Hawk",
     type: "📱",
-    link: "https://chwinery.com/coopers-hawk-mobile-app",
+    link: "https://apps.apple.com/us/app/cooper-s-hawk/id1303888465",
     image: {
       src: ProjectCH,
       alt: "Project Cooper's Hawk",
@@ -103,16 +103,16 @@ const projects = [
   },
   {
     key: 4,
-    title: "Figo Pet Insurance",
+    title: "Pet Cloud",
     type: "📱",
-    link: "https://figopetinsurance.com/pet-cloud",
+    link: "https://apps.apple.com/us/app/pet-cloud/id1278520013",
     image: {
       src: ProjectFigo,
-      alt: "Project Figo Pet Insurance",
+      alt: "Project Pet Cloud",
     },
     description: {
       text1:
-        "Figo Pet Insurance is a Chicago-based company that serves for pet owners to improve communication with Vets around the globe. The main feature built included the creation of a chat for their React Native app to accelerate the live communication. This included real-time communication, history of chats, notifications, and ratings.",
+        "Figo Pet Insurance is a Chicago-based company that serves for pet owners to improve communication with Vets around the globe. The main feature built included the creation of a chat for their Pet Cloud app to accelerate the live communication. This included real-time communication, history of chats, notifications, and ratings.",
       text2:
         "To reach this live communication, we integrated with SignalR. I was front-end lead developer taking all major features.",
     },
