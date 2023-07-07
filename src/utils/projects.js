@@ -33,7 +33,7 @@ const projects = [
     key: 8,
     title: "The Humane Space",
     type: "📱",
-    link: "https://apps.apple.com/us/app/the-humane-space/id6443709613",
+    link: "https://www.thehumane.space/",
     image: {
       src: ProjectTHS,
       alt: "Project The Humane Space",
@@ -87,7 +87,7 @@ const projects = [
     key: 5,
     title: "Cooper's Hawk",
     type: "📱",
-    link: "https://apps.apple.com/us/app/cooper-s-hawk/id1303888465",
+    link: "https://chwinery.com/coopers-hawk-mobile-app",
     image: {
       src: ProjectCH,
       alt: "Project Cooper's Hawk",
