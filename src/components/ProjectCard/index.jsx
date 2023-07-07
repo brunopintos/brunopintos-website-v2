@@ -28,9 +28,10 @@ const ProjectCard = ({ project }) => {
           })
         }
         style={{
+          cursor: link ? "pointer" : "auto",
           background: `linear-gradient(${colorToShow.first}, 66%, ${colorToShow.second})`,
         }}
-        onClick={() => window.open(link, "_blank")}
+        onClick={() => link && window.open(link, "_blank")}
       >
         <div className="project-card-image-container">
           <img src={image.src} alt={image.alt} />

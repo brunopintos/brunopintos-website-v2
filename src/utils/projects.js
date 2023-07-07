@@ -27,7 +27,7 @@ const projects = [
         "This was an end-to-end project, where we used a React Native front-end and integrated it with an RoR back-end. I was front-end lead developer.",
     },
     color: "#3eeeb2",
-    year: "2023",
+    year: "Under development...",
   },
   {
     key: 8,
