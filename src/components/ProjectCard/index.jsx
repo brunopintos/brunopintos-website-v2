@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
 
   const [colorToShow, setColorToShow] = React.useState({
     first: `${color}88`,
-    second: `#88888888`,
+    second: `#44444488`,
   });
 
   return (
@@ -18,13 +18,13 @@ const ProjectCard = ({ project }) => {
         onMouseEnter={() =>
           setColorToShow({
             first: `${color}aa`,
-            second: `#888888aa`,
+            second: `#444444aa`,
           })
         }
         onMouseLeave={() =>
           setColorToShow({
             first: `${color}88`,
-            second: `#88888888`,
+            second: `#44444488`,
           })
         }
         style={{
