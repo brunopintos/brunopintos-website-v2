@@ -52,13 +52,14 @@ const About = () => (
           My experience includes managing development teams, training junior
           developers, and collaborating with cross-functional teams to deliver
           high-quality software solutions. In addition to my work experience, I
-          hold a Bachelor's degree in Computer Science with a GPA of 89%.
+          hold a Bachelor's degree in Computer Science at Universidad ORT
+          Uruguay.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
           In my free time, I enjoy playing sports, including soccer, basketball,
           and tennis. I am always looking for new challenges and opportunities
-          to learn and grow, and I am passionate about using technology to make
-          a positive impact on the world.
+          to learn and grow. In 2024 I will start an MBA at University of CEMA,
+          Buenos Aires, Argentina.
         </p>
         <div className="about-social">
           <a
