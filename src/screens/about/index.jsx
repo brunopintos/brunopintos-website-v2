@@ -30,10 +30,16 @@ const About = () => (
           className="about-paragraph-title"
           style={Typography.styles.modalParagraph}
         >
-          Bruno Pintos.
+          Bruno Pintos
         </h1>
+        <p
+          className="about-paragraph-subtitle"
+          style={{ ...Typography.styles.modalParagraph, fontSize: 14 }}
+        >
+          SOFTWARE ENGINEER & MBA CANDIDATE
+        </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          Hey! I am a Senior Frontend Developer based in{" "}
+          Hey! I am a Senior Developer and Tech Lead based in{" "}
           <a
             href="https://goo.gl/maps/atxUPxPFbGdjpzmK6"
             target="_blank"
@@ -44,22 +50,29 @@ const About = () => (
           .
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          I specialize in React Native and React.js development and have worked
-          on a variety of projects, ranging from small-scale applications to
-          large-scale enterprise solutions.
+          I specialize in React Native and React.js development, having worked
+          on a wide range of projects from small-scale applications to
+          large-scale enterprise solutions. My extensive experience includes
+          managing development teams, training junior developers, and
+          collaborating with cross-functional teams to deliver high-quality
+          software solutions.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          My experience includes managing development teams, training junior
-          developers, and collaborating with cross-functional teams to deliver
-          high-quality software solutions. In addition to my work experience, I
-          hold a Bachelor's degree in Computer Science at Universidad ORT
-          Uruguay.
+          In addition to my professional experience, I hold a Bachelor's degree
+          in Software Engineering from{" "}
+          <a href="https://www.ort.edu.uy/" target="_blank" rel="noreferrer">
+            Universidad ORT
+          </a>
+          , Uruguay, and I am currently pursuing an MBA at{" "}
+          <a href="https://ucema.edu.ar/" target="_blank" rel="noreferrer">
+            Universidad del CEMA
+          </a>{" "}
+          in Buenos Aires, Argentina.
         </p>
         <p className="about-paragraph" style={Typography.styles.modalParagraph}>
-          In my free time, I enjoy playing sports, including soccer, basketball,
-          and tennis. I am always looking for new challenges and opportunities
-          to learn and grow. In 2024 I will start an MBA at University of CEMA,
-          Buenos Aires, Argentina.
+          In my free time, I enjoy playing sports such as soccer, basketball,
+          and tennis. I am always on the lookout for new challenges and
+          opportunities to learn and grow.
         </p>
         <div className="about-social">
           <a

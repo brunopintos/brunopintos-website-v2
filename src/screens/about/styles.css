@@ -114,6 +114,13 @@
 .about-paragraph-title {
   z-index: 2;
   font-size: 2vw !important;
+  margin-bottom: 0px;
+}
+
+.about-paragraph-subtitle {
+  z-index: 2;
+  font-weight: bold;
+  font-size: 10px;
   margin-bottom: 20px;
 }
 

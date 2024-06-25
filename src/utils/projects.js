@@ -45,7 +45,7 @@ const projects = [
         "The CarChat app serves as a powerful tool, enabling users to send and receive quick messages, keeping them updated on various aspects of their vehicles, such as leaving hazards on, flat tires, broken windows, towing alerts, burnt lights, and more.",
     },
     color: "#3EEEB2",
-    year: "Under development...",
+    year: "2023-2024",
   },
   {
     key: 7,
