@@ -3,6 +3,7 @@ import {
   ProjectAyp,
   ProjectBxl,
   ProjectCarChat,
+  ProjectCenterlinePortal,
   ProjectCH,
   ProjectFigo,
   ProjectJShip,
@@ -12,7 +13,7 @@ import {
 
 const projects = [
   {
-    key: 9,
+    key: 10,
     title: "TicketTwist",
     type: "📱",
     link: "https://www.tickettwist.app/",
@@ -28,6 +29,24 @@ const projects = [
     },
     color: "#892ce0",
     year: "2024",
+  },
+  {
+    key: 9,
+    title: "Centerline Portal",
+    type: "🖥",
+    link: "https://www.centerlinedrivers.com/",
+    image: {
+      src: ProjectCenterlinePortal,
+      alt: "Project Centerline Portal",
+    },
+    description: {
+      text1:
+        "I had the privilege of contributing to the creation of Centerline Portal, a robust platform developed for Centerline, the nation's premier staffing and compliance partner in the transportation industry.",
+      text2:
+        "Charged with the responsibility of crafting an intuitive and user-friendly website, I played a key role in the successful creation of the platform. This site facilitates seamless tracking of expenses, generates insightful reports, and optimizes the management of driver qualifications for enhanced operational efficiency.",
+    },
+    color: "#C8102E",
+    year: "2023-2024",
   },
   {
     key: 8,
