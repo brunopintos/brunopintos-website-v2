@@ -1,5 +1,4 @@
 import {
-  ProjectCenterlinePortal,
   ProjectAaos,
   ProjectAyp,
   ProjectBxl,
@@ -8,26 +7,27 @@ import {
   ProjectFigo,
   ProjectJShip,
   ProjectLithium,
+  ProjectTwicketTwist,
 } from "assets";
 
 const projects = [
   {
     key: 9,
-    title: "Centerline Portal",
-    type: "🖥",
-    link: "https://www.centerlinedrivers.com/",
+    title: "TicketTwist",
+    type: "📱",
+    link: "https://www.tickettwist.app/",
     image: {
-      src: ProjectCenterlinePortal,
-      alt: "Project Centerline Portal",
+      src: ProjectTwicketTwist,
+      alt: "Project TicketTwist",
     },
     description: {
       text1:
-        "I had the privilege of contributing to the creation of Centerline Portal, a robust platform developed for Centerline, the nation's premier staffing and compliance partner in the transportation industry.",
+        "As the CEO and developer, I led the team and participated in all stages of the development and launch of TicketTwist, a secure and reliable platform for buying and selling event tickets.",
       text2:
-        "Charged with the responsibility of crafting an intuitive and user-friendly website, I played a key role in the successful creation of the platform. This site facilitates seamless tracking of expenses, generates insightful reports, and optimizes the management of driver qualifications for enhanced operational efficiency.",
+        "I worked as a full-stack developer, utilizing React Native for the mobile application and Node.js for the backend. My responsibilities included overseeing the project's development, ensuring a seamless user experience, and implementing robust security measures to protect users during transactions.",
     },
-    color: "#C8102E",
-    year: "Under development...",
+    color: "#892ce0",
+    year: "2024",
   },
   {
     key: 8,

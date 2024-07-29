@@ -21,7 +21,7 @@ export { default as ProjectAaos } from "./project-aaos.png";
 export { default as ProjectAyp } from "./project-ayp.png";
 export { default as ProjectBxl } from "./project-bxl.png";
 export { default as ProjectCarChat } from "./project-carchat.png";
-export { default as ProjectCenterlinePortal } from "./project-centerline-portal.png";
+export { default as ProjectTwicketTwist } from "./project-tickettwist.png";
 export { default as ProjectCH } from "./project-ch.png";
 export { default as ProjectFigo } from "./project-figo.png";
 export { default as ProjectJShip } from "./project-jship.png";
